@@ -1,7 +1,7 @@
 Feature:
   Test login page
   Background: Preconditions
-    Given Open Azimut login page
+    Given Open Azimut "Index" page
 
   Scenario: Test email field and arrow button
     Then I enter email "toto@gmail.com"

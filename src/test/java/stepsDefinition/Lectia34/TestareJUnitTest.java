@@ -13,6 +13,12 @@ public class TestareJUnitTest extends TestCase {
 
     public void testSumaNumere() {
         TestareJUnit rezultatSumaNumere = new TestareJUnit();
-        assertEquals(5, rezultatSumaNumere.sumaNumere(3,3));
+        assertEquals(5, rezultatSumaNumere.sumaNumere(2,3));
+    }
+
+    public void testMaxim() {
+        int[] exercitiulUnu = {34, 67, 45, 3, 10, 2, 90};
+        TestareJUnit rezultatMaxim = new TestareJUnit();
+        assertEquals(90, rezultatMaxim.maxim(exercitiulUnu));
     }
 }
